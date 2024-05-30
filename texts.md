@@ -1,23 +1,4 @@
-## Section: Recipes
-
-1
-
-2 ""
-
-**iframe text**
-
-Aeropress recipe
-~5 min
-French press recipe
-~15 min
-
----
-
 ## Section: Reservation
-
-**Title and description**
-
-Book a table
 
 **Form labels**
 
