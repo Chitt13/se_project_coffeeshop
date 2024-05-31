@@ -90,7 +90,7 @@
         </section>
         <section id="reservations-page" class="reservations">
           <h2 class="reservation__title">Book a table</h2>
-          <form action="" class="reservation__form form">
+          <form action="101010coffee.com" class="reservation__form form">
             <fieldset class="form__fieldset">
               <div class="input__container">
                 <label for="name" class="form__label">
@@ -99,6 +99,7 @@
                     type="text"
                     required
                     class="form__input"
+                    id="name"
                     placeholder="Name Surname"
                   />
                 </label>
@@ -110,6 +111,7 @@
                     type="number"
                     required
                     class="form__input"
+                    id="guests"
                     placeholder="1-8"
                   />
                 </label>
@@ -117,7 +119,8 @@
               <div class="input__container">
                 <label for="datetime" class="form__label">
                   Date & time * <input type="datetime-local" required
-                  class="form__input" placeholder=datetime-local" />
+                  class="form__input" id="datetime" placeholder=datetime-local"
+                  />
                 </label>
               </div>
               <div class="input__container">
@@ -127,6 +130,7 @@
                     type="email"
                     required
                     class="form__input"
+                    id="email"
                     placeholder="email@email.com"
                   />
                 </label>
