@@ -206,27 +206,14 @@
   box-sizing: border-box;
   margin-top: 8px;
   height: 60px;
+  font-family: "Inter", "Arial", sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  color: #838383;
 }
 
 .form__container {
   position: relative;
-}
-
-.form-container input {
-  font-family: "Inter", "Arial", sans-serif;
-  font-size: 20px;
-  line-height: 30px;
-}
-
-.pseudo-placeholder {
-  position: absolute;
-  left: 20px;
-  top: 50%;
-  color: #838383;
-  font-family: "Inter", "Arial", sans-serif;
-  font-size: 20px;
-  line-height: 30px;
-  pointer-events: none;
 }
 
 .form__button {
@@ -247,7 +234,7 @@
 
 .form__button:hover {
   opacity: 70%;
-  transition: opacity 0.4s linear;
+  transition: opacity 0.7s linear;
 }
 
 .form__checkbox {
