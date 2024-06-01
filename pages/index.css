@@ -16,7 +16,7 @@
   flex-direction: column;
   position: relative;
   background-color: #fff;
-  background-image: url(/images/background_header.svg);
+  background-image: url("../images/background_header.svg");
   background-repeat: no-repeat;
   background-position: right center;
   background-size: cover;
@@ -105,7 +105,7 @@
 .recipes {
   padding: 100px 80px 0px 80px;
   background-color: #0a2750;
-  background-image: url(/images/background_recipes.svg);
+  background-image: url("../images/background_recipes.svg");
   background-size: cover;
 }
 
@@ -154,7 +154,7 @@
 .reservation {
   padding: 100px 0 120px;
   background-color: #d9e7ff;
-  background-image: url(/images/background_reservation.svg);
+  background-image: url("../images/background_reservation.svg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
