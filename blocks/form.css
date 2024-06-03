@@ -34,6 +34,11 @@
   font-size: 20px;
   line-height: 30px;
   color: #838383;
+  border-radius: 4px;
+}
+
+.form__input:hover {
+  cursor: pointer;
 }
 
 .form__container {
@@ -44,7 +49,6 @@
   width: 100%;
   padding: 0;
   border: none;
-  margin-top: 32px;
   margin-bottom: 32px;
   height: 60px;
   border-radius: 4px;
